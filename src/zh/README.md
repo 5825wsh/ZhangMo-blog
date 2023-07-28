@@ -2,47 +2,47 @@
 home: true
 layout: BlogHome
 icon: home
-title: 博客主页
-heroImage: /logo.svg
-heroText: 你博客的名称
+title: 主页
+heroImage: /head.svg
+heroText: #设置博客名称
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 我本将心向明月，奈何明月照沟渠 #之后试试文心一言接口
 projects:
   - icon: project
     name: 项目名称
     desc: 项目详细描述
-    link: https://你的项目链接
+    link: javascript:;
 
   - icon: link
     name: 链接名称
     desc: 链接详细描述
-    link: https://链接地址
+    link: javascript:;
 
   - icon: book
     name: 书籍名称
     desc: 书籍详细描述
-    link: https://你的书籍链接
+    link: javascript:;
 
   - icon: article
     name: 文章名称
     desc: 文章详细描述
-    link: https://你的文章链接
+    link: javascript:;
 
   - icon: friend
     name: 伙伴名称
     desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+    link: javascript:;
 
   - icon: /logo.svg
     name: 自定义项目
     desc: 自定义详细介绍
-    link: https://你的自定义链接
+    link: javascript:;
 
-footer: 自定义你的页脚文字
+footer: Powered by vuepress-theme-hope
 ---
 
-这是一个博客主页的案例。
+<!-- 这是一个博客主页的案例。 -->
 
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
+<!-- 要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。 -->
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
+<!-- 相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。 -->
