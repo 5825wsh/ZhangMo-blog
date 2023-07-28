@@ -4,19 +4,19 @@ export const zhNavbar = navbar([
   "/zh/",
   "/zh/demo/",
   {
-    text: "博文",
+    text: "开发笔记",
     icon: "pen-to-square",
     prefix: "/zh/posts/",
     children: [
       {
-        text: "苹果",
+        text: "前端",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "frontend/",
         children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "HTML学习", icon: "pen-to-square", link: "html" },
+          // { text: "苹果2", icon: "pen-to-square", link: "2" },
+          // "3",
+          // "4",
         ],
       },
       {

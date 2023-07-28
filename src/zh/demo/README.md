@@ -1,5 +1,5 @@
 ---
-title: 主要功能与配置演示
+title: 主要功能与配置演示 #等学会配置后删除
 index: false
 icon: laptop-code
 category:
