@@ -3,10 +3,14 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-heroImage: /head.svg
+# heroImage: /head.svg
 heroText: #设置博客名称
 heroFullScreen: true
 tagline: 我本将心向明月，奈何明月照沟渠 #之后试试文心一言接口
+# tagline: "https://international.v1.hitokoto.cn/?c=b&max_length=45" 不太对
+
+bgImage: "https://file.mo7.cc/api/public/bz" # 一个图片接口，每次刷新提供不同的风景图片
+
 projects:
   - icon: project
     name: 项目名称
