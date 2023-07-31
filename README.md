@@ -4,15 +4,19 @@
 ### 使用方法
 - 克隆项目到本地
 ```git 
-git clone
- 
+git clone git@github.com:5825wsh/ZhangMo-blog.git
+```
+
+
 - 进行安装
 ```bash
 pnpm install
+```
+
 
 - 然后就可以在本地运行了
 ```bash 
 pnpm docs:dev
-
+```
 
 
