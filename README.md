@@ -2,11 +2,15 @@
 欢迎来到我的博客！
 
 ### 使用方法
-- 克隆项目到本地
+- 初始化git
 ```git 
-git clone git@github.com:5825wsh/ZhangMo-blog.git
+git init
 ```
 
+- 拉取项目
+```git
+git pull origin main --allow-unrelated-histories
+```
 
 - 进行安装
 ```bash
