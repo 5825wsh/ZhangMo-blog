@@ -10,6 +10,10 @@ star: true
 sticky: true
 ---
 
+关于本博客的部署过程，用 vercel，真的方便，真的香:heart_eyes:
+
+<!-- more -->
+
 # 博客部署
 
 在部署之前，要确保自己的项目能够在本地运行 pnpm docs:build，且不能有报错，否则就进行下面的步骤

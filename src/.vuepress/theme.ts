@@ -10,16 +10,16 @@ export default hopeTheme({
 
   author: {
     name: "丈墨",
-    url: "https://mister-hope.com", //部署完再改
+    url: "https://zhang-mo-blog.vercel.app/zh/",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "/power.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "5825wsh/ZhangMo-blog", //对应仓库
 
-  docsDir: "src",
+  docsDir: "src", // 对应目录
 
   blog: {
     medias: {
@@ -29,7 +29,7 @@ export default hopeTheme({
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "wushaohui5825@qq.com",
+      Email: "mailto:wushaohui5825@qq.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -43,13 +43,13 @@ export default hopeTheme({
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       // Pocket: "https://example.com",
-      QQ: "https://example.com",
+      QQ: "tencent://message/?uin=2723751856",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
+      Steam: "https://steamcommunity.com/id/wushaohui5825/",
+      Twitter: "https://twitter.com/5w8s2h5",
+      Wechat: "", //这个还没成功
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
@@ -91,7 +91,7 @@ export default hopeTheme({
       // sidebar
       sidebar: zhSidebar,
 
-      footer: "默认页脚",
+      footer: "Powered by vuepress-theme-hope",
 
       displayFooter: true,
 
