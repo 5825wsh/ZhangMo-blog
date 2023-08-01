@@ -16,6 +16,31 @@ export const zhSidebar = sidebar({
       prefix: "posts/",
       children: "structure",
     },
+    {
+      text: "随笔",
+      icon: "pen",
+      prefix: "suibi/",
+      link: "suibi/",
+      children: [
+        {
+          text: "文章",
+          icon: "pen",
+          link: "article/",
+        },
+        {
+          text: "诗歌",
+          icon: "pen",
+          link: "poem/",
+          // children: "structure",
+        },
+        {
+          text: "美言佳句",
+          icon: "pen",
+          link: "sentence/",
+          // children: "structure",
+        },
+      ],
+    },
     "intro",
     "slides",
   ],

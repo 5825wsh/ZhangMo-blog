@@ -1,8 +1,8 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/zh/",
-  "/zh/demo/",
+  "/zh/", //主页面
+  "/zh/demo/", //配置页面
   {
     text: "开发笔记",
     icon: "pen-to-square",
@@ -15,33 +15,32 @@ export const zhNavbar = navbar([
         children: [
           { text: "HTML学习", icon: "pen-to-square", link: "html" },
           // { text: "苹果2", icon: "pen-to-square", link: "2" },
-          // "3",
-          // "4",
-        ],
-      },
-      {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
         ],
       },
       { text: "樱桃", icon: "pen-to-square", link: "cherry" },
       { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
+    ],
+  },
+  {
+    text: "随笔",
+    icon: "pen",
+    prefix: "/zh/suibi/",
+    children: [
+      {
+        text: "文章",
+        icon: "icon-star-circle",
+        link: "article/",
+      },
+      {
+        text: "诗歌",
+        icon: "pen-to-square",
+        link: "poem/",
+      },
+      {
+        text: "美言佳句",
+        icon: "pen-to-square",
+        link: "sentence/",
+      },
     ],
   },
   {
