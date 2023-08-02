@@ -29,29 +29,29 @@ sticky: true
 
 - 先登录，这里我使用的是 GitHub 账号登录：
 
-  [![登录vercel](https://i.postimg.cc/VvT42TpR/image.png)](https://postimg.cc/n94vDdHj)
+  ![登录vercel](https://i.postimg.cc/VvT42TpR/image.png)
 
 - 然后进入之后，再创建实例：
 
-  [![创建新实例](https://i.postimg.cc/k5cs7DLD/shili.png)](https://postimg.cc/CZRkNMhV)
+  ![创建新实例](https://i.postimg.cc/k5cs7DLD/shili.png)
 
 - 从 GitHub 上导入项目：
 
-  [![导入项目](https://i.postimg.cc/8CDw8LKq/image.png)](https://postimg.cc/VJGXn0cR)
+  ![导入项目](https://i.postimg.cc/8CDw8LKq/image.png)
 
 - 选择要导入的项目：
 
-  [![选择项目](https://i.postimg.cc/PrpS1XvF/image.png)](https://postimg.cc/crW7SNmQ)
+  ![选择项目](https://i.postimg.cc/PrpS1XvF/image.png)
 
 - 点击 import 导入：
 
-  [![导入](https://i.postimg.cc/pryqGxGr/import.png)](https://postimg.cc/p5bfyNtM)
+  ![导入](https://i.postimg.cc/pryqGxGr/import.png)
 
 - 配置部署方式：
 
-  [![配置](https://i.postimg.cc/Dy9Bg9qf/1.png)](https://postimg.cc/tYz3RmS8)
+  ![配置](https://i.postimg.cc/Dy9Bg9qf/1.png)
 
-  [![配置](https://i.postimg.cc/sg5K0TcY/2.png)](https://postimg.cc/hXP9XbNv)
+  ![配置](https://i.postimg.cc/sg5K0TcY/2.png)
 
 - 最后只需要等待一两分钟，出现撒花界面就表示部署成功了，接下来你就可以点击 visit 去访问你的 bolg 了。
 
