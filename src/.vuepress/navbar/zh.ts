@@ -13,7 +13,7 @@ export const zhNavbar = navbar([
         icon: "pen-to-square",
         prefix: "frontend/",
         children: [
-          { text: "HTML学习", icon: "pen-to-square", link: "html" },
+          { text: "HTML学习", icon: "code", link: "html" },
           // { text: "苹果2", icon: "pen-to-square", link: "2" },
         ],
       },
@@ -23,22 +23,22 @@ export const zhNavbar = navbar([
   },
   {
     text: "随笔",
-    icon: "pen",
+    icon: "splotch",
     prefix: "/zh/suibi/",
     children: [
       {
         text: "文章",
-        icon: "pen-to-square",
+        icon: "newspaper",
         link: "article/",
       },
       {
         text: "诗歌",
-        icon: "pen-to-square",
+        icon: "stamp",
         link: "poem/",
       },
       {
         text: "美言佳句",
-        icon: "pen-to-square",
+        icon: "heart",
         link: "sentence/",
       },
     ],
