@@ -1,11 +1,12 @@
 ---
 cover: "https://w.wallhaven.cc/full/kx/wallhaven-kx98xd.jpg"
-icon: pen-to-square
+icon: layer-group
 date: 2023-07-28
 category:
   - 博客部署
 tag:
   - 部署
+  - vercel
 star: true
 sticky: true
 ---

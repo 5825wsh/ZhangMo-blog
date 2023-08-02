@@ -1,6 +1,6 @@
 ---
 cover: /assets/images/html.png
-icon: pen-to-square
+icon: code
 date: 2022-06-27
 category:
   - 前端

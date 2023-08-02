@@ -18,24 +18,24 @@ export const zhSidebar = sidebar({
     },
     {
       text: "随笔",
-      icon: "pen",
+      icon: "splotch",
       prefix: "suibi/",
       link: "suibi/",
       children: [
         {
           text: "文章",
-          icon: "pen",
+          icon: "newspaper",
           link: "article/",
         },
         {
           text: "诗歌",
-          icon: "pen",
+          icon: "stamp",
           link: "poem/",
           // children: "structure",
         },
         {
           text: "美言佳句",
-          icon: "pen",
+          icon: "heart",
           link: "sentence/",
           // children: "structure",
         },
