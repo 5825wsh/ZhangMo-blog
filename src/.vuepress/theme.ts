@@ -120,6 +120,9 @@ export default hopeTheme({
     //图片缩放
     photoSwipe: true,
 
+    //版权信息
+    copyright: true,
+
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
