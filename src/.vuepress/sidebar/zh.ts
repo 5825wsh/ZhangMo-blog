@@ -18,7 +18,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: "随笔",
-      icon: "splotch",
+      icon: "feather",
       prefix: "suibi/",
       link: "suibi/",
       children: [
@@ -29,7 +29,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "诗歌",
-          icon: "stamp",
+          icon: "pen-nib",
           link: "poem/",
           // children: "structure",
         },
