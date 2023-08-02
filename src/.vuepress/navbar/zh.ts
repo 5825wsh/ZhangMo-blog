@@ -23,7 +23,7 @@ export const zhNavbar = navbar([
   },
   {
     text: "随笔",
-    icon: "splotch",
+    icon: "feather",
     prefix: "/zh/suibi/",
     children: [
       {
@@ -33,7 +33,7 @@ export const zhNavbar = navbar([
       },
       {
         text: "诗歌",
-        icon: "stamp",
+        icon: "pen-nib",
         link: "poem/",
       },
       {

@@ -117,6 +117,9 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
+    //图片缩放
+    photoSwipe: true,
+
     comment: {
       // You should generate and use your own comment service
       provider: "Waline",
