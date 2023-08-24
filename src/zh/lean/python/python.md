@@ -12,7 +12,7 @@ sticky: true
 
 # Python
 
-在学习菜鸟教程上 python 进阶的一些笔记
+在学习菜鸟教程上 [python](https://www.runoob.com/python3/python3-tutorial.html) 进阶的一些笔记
 
 <!-- more -->
 
@@ -38,3 +38,10 @@ sticky: true
   还有其他的，更多的可以[看这里](https://www.runoob.com/regexp/regexp-metachar.html)
   关于修饰符，是可选项，不多，需要用到时再去查找使用
   :::
+
+## Python CGI 编程
+
+CGI(Common Gateway Interface),通用网关接口,它是一段程序,运行在服务器上如：HTTP 服务器，提供同客户端 HTML 页面的接口。
+实现了通常情况下的客户端与服务器的请求响应。
+
+## Python MySQL
