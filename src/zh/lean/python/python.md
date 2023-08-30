@@ -12,9 +12,11 @@ sticky: true
 
 # Python
 
-在学习菜鸟教程上 [python](https://www.runoob.com/python3/python3-tutorial.html) 进阶的一些笔记
+在学习菜鸟教程上 [python](https://www.runoob.com/python3/python3-tutorial.html) 进阶的一些笔记。
 
 <!-- more -->
+
+在阅读时遇到问题可以查询出处——[菜鸟 python 教程](https://www.runoob.com/python3/python3-tutorial.html)。
 
 ## 正则表达式
 
@@ -45,3 +47,137 @@ CGI(Common Gateway Interface),通用网关接口,它是一段程序,运行在服
 实现了通常情况下的客户端与服务器的请求响应。
 
 ## Python MySQL
+
+在 python 中，可以引入 mysql-connector 来连接使用 MySQL。在 Python3 中，还可以使用 PyMySQL 连接数据库，并实现简单的增删改查<br/>
+其中数据库相关的操作都是使用 SQL 语句，并且两个库引入后的 MySQL 操作基本一致，仅在连接数据库时有所不同。
+
+## python 网络编程
+
+使用内置的 Socket，创建服务器和客户端，逻辑和使用的方法都与计算机网络课程所讲授的差不多。
+::: details 示例代码
+::: code-tabs
+
+@tab 服务器
+
+```python
+# 导入 socket、sys 模块
+import socket
+import sys
+
+# 创建 socket 对象
+serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# 获取本地主机名
+host = socket.gethostname()
+
+port = 9999
+
+# 绑定端口号
+serversocket.bind((host, port))
+
+# 设置最大连接数，超过后排队
+serversocket.listen(5)
+
+while True:
+    # 建立客户端连接
+    clientsocket,addr = serversocket.accept()      
+
+    print("连接地址: %s" % str(addr))
+   
+    msg='你成功了！'+ "\r\n"
+    clientsocket.send(msg.encode('utf-8'))
+    clientsocket.close()
+```
+
+@tab 客户端
+
+```python
+# 导入 socket、sys 模块
+import socket
+import sys
+
+# 创建 socket 对象
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# 获取本地主机名
+host = socket.gethostname()
+
+# 设置端口号
+port = 9999
+
+# 连接服务，指定主机和端口
+s.connect((host, port))
+
+# 接收小于 1024 字节的数据
+msg = s.recv(1024)
+
+s.close()
+
+print (msg.decode('utf-8'))
+```
+
+:::
+
+## Python3 SMTP 发送邮件
+
+python 的 smtplib 提供了一种很方便的途径发送电子邮件。它对 smtp 协议进行了简单的封装。<br/>
+可以实现文本发送，HTML 格式发送，附件发送，HTML 中添加图片发送
+::: info 注意
+要使用第三方 SMTP 服务器，比如 QQ 邮箱
+::: details 简单文本发送的示例代码
+
+```python
+import smtplib
+from email.mime.text import MIMEText
+from email.header import Header
+from email.utils import formataddr
+
+# QQ邮箱的SMTP服务器地址
+smtp_server = "smtp.qq.com"
+smtp_port = 465  # 使用SSL加密的端口
+sender = '3216179194@qq.com'
+receivers = ['wushaohui5825@qq.com']
+
+message = MIMEText('Python 邮件发送测试...', 'plain', 'utf-8')
+message['From'] = formataddr((str(Header("慎忆", 'utf-8')), sender))
+message['To'] = formataddr((str(Header("测试", 'utf-8')), receivers[0]))
+subject = 'Python SMTP 邮件测试' #邮件主题
+message['Subject'] = Header(subject, 'utf-8')
+
+try:
+    smtpObj = smtplib.SMTP_SSL(smtp_server, smtp_port)
+    smtpObj.login(sender, 'yziglqwbwreldgad')  # 使用授权码登录，而不是密码
+    smtpObj.sendmail(sender, receivers, message.as_string())
+    print("邮件发送成功")
+except smtplib.SMTPException as e:
+    print(f"Error: 无法发送邮件. Reason: {e}")
+```
+
+:::
+
+## python3 多线程
+
+常用的两大模块：\_thread，threading（推荐使用）<br/>
+也需要注意线程同步问题，使用互斥锁。
+
+## XML 解析
+
+XML 指可扩展标记语言（eXtensible Markup Language），标准通用标记语言的子集，是一种用于标记电子文件使其具有结构性的标记语言。<br/>
+Python 有三种方法解析 XML：
+
+- SAX (simple API for XML )，一种基于事件驱动的 API
+- DOM(Document Object Model)，是 W3C 组织推荐的处理可扩展置标语言的标准编程接口
+- ElementTree
+
+## JSON 数据解析
+
+JSON (JavaScript Object Notation) 是一种轻量级的数据交换格式。
+
+- json.dumps(): 对数据进行编码。
+- json.loads(): 对数据进行解码。
+
+## 日期和时间
+
+Python 提供了一个 time 和 calendar 模块可以用于格式化日期和时间。time 模块下有很多函数可以转换常见日期格式，calendar 模块有很广泛的方法用来处理年历和月历，具体使用时再做查询。
+
+## python MongoDB
