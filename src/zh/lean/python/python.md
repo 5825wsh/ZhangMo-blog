@@ -194,3 +194,48 @@ Python urllib 库用于操作网页 URL，并对网页的内容进行抓取处�
 - urllib.error - 包含 urllib.request 抛出的异常。
 - urllib.parse - 解析 URL。
 - urllib.robotparser - 解析 robots.txt 文件。
+
+## operator 模块
+
+替代 cmp() 函数来比较两个列表、数字或字符串等的大小关系，需要引入 operator 模块。
+::: details 包含的用于比较的方法
+
+```python
+operator.lt(a, b)
+operator.le(a, b)
+operator.eq(a, b)
+operator.ne(a, b)
+operator.ge(a, b)
+operator.gt(a, b)
+operator.__lt__(a, b)
+operator.__le__(a, b)
+operator.__eq__(a, b)
+operator.__ne__(a, b)
+operator.__ge__(a, b)
+operator.__gt__(a, b)
+# 其中双下划线的是为了向下兼容，一般不用
+```
+
+:::
+除了比较的方法，operator 模块还包含有逻辑运算、数学运算以及序列运算等函数方法，详情[见此](https://www.runoob.com/python3/python-operator.html)
+
+## math 模块
+
+math 模块提供了许多对浮点数的数学运算函数，且返回值均为浮点数，包含的方法不在此列举，需要用到时再做[查询](https://www.runoob.com/python3/python-math.html)。
+
+## request 模块
+
+Python requests 是一个常用的 HTTP 请求库，可以方便地向网站发送 HTTP 请求，并获取响应结果。<br/>
+企业实训时做的大数据项目就是用的 request 库来编写爬虫实现数据收集的。
+
+## random 模块
+
+Python random 模块主要用于生成随机数。
+
+## statistics 模块
+
+Python statistics 是标准库中的一个模块，模块提供了许多基本统计计算的函数，可以帮助我们分析和计算数据集的统计特征。
+
+## 结束
+
+至此，菜鸟教程上的关于 python 高阶的学习就结束了，学习时，本人只是采取浏览、理解，部分时候辅以代码来验证学习，学习深度并不高。本人也是处于 python 的初学者，写本文也只是相当于做做笔记，增强学习效果，并方便日后可能的使用。如果发现 本文存在问题，欢迎交流学习 😘。
