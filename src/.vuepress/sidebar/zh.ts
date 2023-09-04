@@ -30,6 +30,13 @@ export const zhSidebar = sidebar({
           collapsible: true,
           children: "structure",
         },
+        {
+          text: "Java",
+          icon: "camera-retro",
+          prefix: "java/",
+          collapsible: true,
+          children: "structure",
+        },
       ],
     },
     {
