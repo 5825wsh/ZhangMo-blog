@@ -24,8 +24,8 @@ projects:
 
   - icon: book
     name: 书籍名称
-    desc: 书籍详细描述
-    link: javascript:;
+    desc: 我的足迹来自远处，也将去往远处。
+    link: "posts/book.md"
 
   - icon: article
     name: 文章名称

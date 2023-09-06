@@ -245,3 +245,128 @@ dataType[] arrayRefVar = {value0, value1, ..., valuek};
 使用基本循环或者 For-Each 循环——也就是增强 for 循环（`for(type element: array){//函数体}`）
 
 涉及到的处理 Arrays 类的方法详见[此处](https://www.runoob.com/java/java-array.html)
+
+## 日期时间
+
+1. java.util 包提供了 Date 类来封装当前的日期和时间。 Date 类提供两个构造函数来实例化 Date 对象。
+   第一个构造函数使用当前日期和时间来初始化对象。
+
+```java
+Date( )
+```
+
+第二个构造函数接收一个参数，该参数是从 1970 年 1 月 1 日起的毫秒数。
+
+```java
+Date(long millisec)
+```
+
+具体的操作有获取当前日期、日期比较、格式化日期、解析字符串为时间、休眠（sleep）等。
+
+2. Calendar 类
+   Calendar 类的功能要比 Date 类强大很多，而且在实现方式上也比 Date 类要复杂一些。Calendar 类是一个抽象类，在实际使用时实现特定的子类的对象，创建对象的过程对程序员来说是透明的，只需要使用 getInstance 方法创建即可。
+
+这两种日期时间处理类的具体方法详见[此处](https://www.runoob.com/java/java-date-time.html)
+
+## 正则表达式
+
+java.util.regex 包主要包括以下三个类：
+Pattern 类：
+pattern 对象是一个正则表达式的编译表示。Pattern 类没有公共构造方法。要创建一个 Pattern 对象，你必须首先调用其公共静态编译方法，它返回一个 Pattern 对象。该方法接受一个正则表达式作为它的第一个参数。
+
+Matcher 类：
+Matcher 对象是对输入字符串进行解释和匹配操作的引擎。与 Pattern 类一样，Matcher 也没有公共构造方法。你需要调用 Pattern 对象的 matcher 方法来获得一个 Matcher 对象。
+
+PatternSyntaxException：
+PatternSyntaxException 是一个非强制异常类，它表示一个正则表达式模式中的语法错误。
+
+其中涉及到的正则表达式处理方法详见[此处](https://www.runoob.com/java/java-regular-expressions.html)
+
+## 方法
+
+感觉就是函数的意思。
+
+- 方法是解决一类问题的步骤的有序组合
+- 方法包含于类或对象中
+- 方法在程序中被创建，在其他地方被引用
+
+知识点有方法调用、viod 关键字、传参、方法重载、变量作用域、命令行参数的使用、构造方法、可变参数和 finalize() 方法。
+
+## 流(Stream)、文件(File)和 IO
+
+控制台输入（system. in），控制台输出（system.out）
+
+- 读取字符——read()
+- 读取字符串——readLine()
+- 输出——write()、print()、println()
+
+读写文件：FileInputStream 和 FileOutputStream
+:::details 一个示例代码
+
+```java
+//文件名 :fileStreamTest2.java
+import java.io.*;
+
+public class fileStreamTest2 {
+    public static void main(String[] args) throws IOException {
+
+        File f = new File("a.txt");
+        FileOutputStream fop = new FileOutputStream(f);
+        // 构建FileOutputStream对象,文件不存在会自动新建
+
+        OutputStreamWriter writer = new OutputStreamWriter(fop, "UTF-8");
+        // 构建OutputStreamWriter对象,参数可以指定编码,默认为操作系统默认编码,windows上是gbk
+
+        writer.append("中文输入");
+        // 写入到缓冲区
+
+        writer.append("\r\n");
+        // 换行
+
+        writer.append("English");
+        // 刷新缓存冲,写入到文件,如果下面已经没有写入的内容了,直接close也会写入
+
+        writer.close();
+        // 关闭写入流,同时会把缓冲区内容写入文件,所以上面的注释掉
+
+        fop.close();
+        // 关闭输出流,释放系统资源
+
+        FileInputStream fip = new FileInputStream(f);
+        // 构建FileInputStream对象
+
+        InputStreamReader reader = new InputStreamReader(fip, "UTF-8");
+        // 构建InputStreamReader对象,编码与写入相同
+
+        StringBuffer sb = new StringBuffer();
+        while (reader.ready()) {
+            sb.append((char) reader.read());
+            // 转成char加到StringBuffer对象中
+        }
+        System.out.println(sb.toString());
+        reader.close();
+        // 关闭读取流
+
+        fip.close();
+        // 关闭输入流,释放系统资源
+
+    }
+}
+```
+
+:::
+
+还有一些关于文件和 I/O 的类，也需要知道：
+File Class(类)
+FileReader Class(类)
+FileWriter Class(类)
+
+目录操作包括：创建目录、读取目录、删除目录或文件。
+
+## Scanner 类
+
+java.util.Scanner 是 Java5 的新特征，我们可以通过 Scanner 类来获取用户的输入。
+包含主要方法有 next()、nextLine()、hasNext()、hasNextLine()、nextXxx()、hasNextXxx()
+其中 Xxx 是某种数据类型，用来输入特定的数据类型。
+
+## 异常处理
