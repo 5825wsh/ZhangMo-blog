@@ -482,7 +482,7 @@ body{
 - 选择器相同，则执行层叠性
 - 选择器不同，则根据选择器权重执行
 
-![1665821428103](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665821428103.png)
+<!-- ![1665821428103](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665821428103.png) -->
 
 //其中“！important”直接加在属性值的后面就行，eg：color： red!important;
 
@@ -544,11 +544,11 @@ body{
 
 边框与内容的距离
 
-![1665835877808](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665835877808.png)
+<!-- ![1665835877808](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665835877808.png) -->
 
 简写：
 
-![1665835962950](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665835962950.png)
+<!-- ![1665835962950](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665835962950.png) -->
 
 这 4 种情况开发中都会遇到
 
@@ -558,7 +558,7 @@ body{
 
 控制盒子与盒子之间的距离
 
-![1665837199371](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665837199371.png)
+<!-- ![1665837199371](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665837199371.png) -->
 
 简写方式与 padding 是完全一样的
 
@@ -574,7 +574,7 @@ body{
 
 **嵌套块元素垂直外边距的塌陷：**
 
-![1665838090825](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665838090825.png)
+<!-- ![1665838090825](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665838090825.png) -->
 
 - 清除内外边距：
 
@@ -595,7 +595,7 @@ body{
 
 2. PS 基本操作
 
-![1665838808906](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665838808906.png)
+<!-- ![1665838808906](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665838808906.png) -->
 
 **小知识**：去除无序列表里面的小圆点，list-style: none;
 
@@ -605,9 +605,9 @@ body{
 
 语法：border-radius：length；
 
-原理： ![1665883864605](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665883864605.png)//参数值是圆的半径
+<!-- 原理： ![1665883864605](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665883864605.png)//参数值是圆的半径 -->
 
-![1665883946340](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665883946340.png)
+<!-- ![1665883946340](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665883946340.png) -->
 
 4. 盒子阴影
 
@@ -617,7 +617,7 @@ body{
 
 //前两个值是必须的，其他的可以省略
 
-![1665884330404](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665884330404.png)
+<!-- ![1665884330404](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665884330404.png) -->
 
 **注：**
 
@@ -630,7 +630,7 @@ body{
 
 语法：text-shadow：h-sahdow v-shadow blur color;
 
-![1665884616229](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665884616229.png)
+<!-- ![1665884616229](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665884616229.png) -->
 
 ### CSS 浮动
 
@@ -703,7 +703,7 @@ body{
 
   选择器`{clear：属性值}`
 
-  ![1665971733002](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665971733002.png)
+  <!-- ![1665971733002](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665971733002.png) -->
 
   //实际开发中几乎用 clear：both
 
@@ -793,7 +793,7 @@ body{
 
 - 常见图片格式
 
-  ![1665974868177](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665974868177.png)
+  <!-- ![1665974868177](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1665974868177.png) -->
 
 - 图层切图
 
@@ -824,15 +824,15 @@ body{
 
 让自己看起来更加的专业
 
-![1666014201522](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666014201522.png)
+<!-- ![1666014201522](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666014201522.png) -->
 
 ### 页面布局整体思路
 
-![1666014824920](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666014824920.png)
+<!-- ![1666014824920](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666014824920.png) -->
 
 ### 导航栏注意点：
 
-![1666056065246](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666056065246.png)
+<!-- ![1666056065246](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666056065246.png) -->
 
 ### CSS 定位
 
@@ -878,7 +878,7 @@ body{
 
       **小技巧——固定在版心右侧位置：**
 
-      ![1666418467511](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666418467511.png)
+      <!-- ![1666418467511](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666418467511.png) -->
 
     - 粘性定位
 
@@ -974,7 +974,7 @@ body{
 
    - 在 CSS 样式中全局声明字体：简单理解把这些字体文件通过 CSS 引入到我们页面中。（一定注意字体文件路径的问题）
 
-     ![1666518832428](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666518832428.png)
+     <!-- ![1666518832428](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1666518832428.png) -->
 
      可以在下载包里面的 style.css 文件中复制放到 CSS 中
 
