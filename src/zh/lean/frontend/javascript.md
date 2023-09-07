@@ -266,7 +266,7 @@ JS 语言自带的一些对象，供开发者使用，提供常用的功能
 - 事件类型：鼠标点击、鼠标经过、键盘按下
 - 时间处理程序：通过赋值函数的方式
 
-![1668327948331](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1668327948331.png)
+<!-- ![1668327948331](C:\Users\86152\AppData\Roaming\Typora\typora-user-images\1668327948331.png) -->
 
 #### 操作元素
 
