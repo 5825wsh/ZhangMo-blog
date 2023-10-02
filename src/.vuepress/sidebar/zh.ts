@@ -37,6 +37,13 @@ export const zhSidebar = sidebar({
           collapsible: true,
           children: "structure",
         },
+        {
+          text: "C/CPP",
+          icon: "cloud",
+          prefix: "c+cpp/",
+          collapsible: true,
+          children: "structure",
+        },
       ],
     },
     {
