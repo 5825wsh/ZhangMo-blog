@@ -40,7 +40,7 @@ export const zhSidebar = sidebar({
         {
           text: "C/CPP",
           icon: "cloud",
-          prefix: "c+cpp/",
+          prefix: "c/",
           collapsible: true,
           children: "structure",
         },
