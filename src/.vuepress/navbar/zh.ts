@@ -19,7 +19,7 @@ export const zhNavbar = navbar([
       },
       { text: "python", icon: "code", link: "python/" },
       { text: "Java", icon: "camera-retro", link: "java/" },
-      { text: "C/CPP", icon: "cloud", link: "c+cpp/" },
+      { text: "C/CPP", icon: "cloud", link: "c/" },
     ],
   },
   {
