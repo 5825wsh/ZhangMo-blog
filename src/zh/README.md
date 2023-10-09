@@ -23,7 +23,7 @@ projects:
     link: javascript:;
 
   - icon: book
-    name: 书籍名称
+    name: 书籍阅读
     desc: 我的足迹来自远处，也将去往远处。
     link: "posts/book.md"
 
@@ -33,9 +33,9 @@ projects:
     link: javascript:;
 
   - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: javascript:;
+    name: 友情链接
+    desc: 无数的脚印踏过，山峰亦是坦途。
+    link: "posts/friend.md"
 
   - icon: /logo.svg
     name: 自定义项目

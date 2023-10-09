@@ -3,14 +3,15 @@ cover: "https://cdn.pixabay.com/photo/2020/05/25/13/41/chalet-5218666_1280.png"
 icon: otter
 date: 2023-09-04
 category:
-  - Java
+  - Java 后端开发
 tag:
-  - Java基础
+  - Java 基础
+  - Java 基本语法
 star: true
 sticky: true
 ---
 
-# Java
+# Java 基础
 
 在学习菜鸟教程上 [Java](https://www.runoob.com/java/java-tutorial.html) 相关知识的一些笔记。
 
