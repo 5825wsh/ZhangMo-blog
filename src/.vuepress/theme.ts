@@ -97,7 +97,7 @@ export default hopeTheme(
         displayFooter: true,
 
         blog: {
-          description: "一个摸鱼达人",
+          description: "我本将心向明月，奈何明月照沟渠。",
           intro: "/zh/intro.html",
         },
 
