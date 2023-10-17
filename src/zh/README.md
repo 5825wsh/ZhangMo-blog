@@ -9,7 +9,7 @@ heroFullScreen: true
 tagline: 我本将心向明月，奈何明月照沟渠 #之后试试文心一言接口
 # tagline: "https://v1.hitokoto.cn/?encode=text&c=a"
 
-bgImage: "https://file.mo7.cc/api/public/bz" # 一个图片接口，每次刷新提供不同的风景图片
+bgImage: "https://bing.img.run/rand.php" # 一个图片接口，每次刷新提供不同的必应历史图片
 
 projects:
   - icon: project
