@@ -324,7 +324,7 @@ spring boot 项目在启动时，会对几个监听器进行回调，我们可�
 
 ##### 启动流程分析
 
-![启动流程分析](B:\自学\springboot\springboot启动流程分析.png)
+![启动流程分析](https://i.postimg.cc/90ccyfwG/springboot.png)
 
 #### spring boot 监控
 
