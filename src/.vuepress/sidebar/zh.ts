@@ -24,6 +24,13 @@ export const zhSidebar = sidebar({
           children: "structure",
         },
         {
+          text: "后端",
+          icon: "paw",
+          prefix: "backend/",
+          collapsible: true,
+          children: "structure",
+        },
+        {
           text: "python",
           icon: "code",
           prefix: "python/",
